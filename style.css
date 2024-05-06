@@ -1,0 +1,80 @@
+h1 {
+  color: rgb(70, 43, 5);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align-last: center;
+}
+
+h2
+{
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+body {
+  background: linear-gradient(90deg, #a8ed92 0%, #04784b 100%);
+  color: rgb(37, 24, 6);
+  font-family: "Taviraj", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: larger;
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+.list-inline > li {
+  display: inline-block;
+  padding: 20px 20px;
+  align-content: center;
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  margin: 20px;
+}
+a:hover {
+  color: black;
+}
+
+.img {
+  border-radius: 50%;
+  align-content: center;
+  width: 98%;
+  height: 98%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 5%;
+  box-shadow: 5px #04784b ;
+  margin: 5%;
+}
